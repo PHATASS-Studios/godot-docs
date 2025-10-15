@@ -416,7 +416,9 @@ and wider compatibility.
   Godot requires the normal map to use the X+, Y+ and Z+ coordinates, this is
   known as OpenGL style. If you've imported a material made to be used with
   another engine it may be DirectX style, in which case the normal map needs to
-  be converted so its Y axis is flipped.
+  be converted so its Y axis is flipped. This can be achieved by
+  setting the green channel under the **Channel Remap** section to
+  **Inverted Green** in the import dock.
 
   More information about normal maps (including a coordinate order table for
   popular engines) can be found
